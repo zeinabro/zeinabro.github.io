@@ -1,0 +1,55 @@
+[
+    {
+        "name": "Show/Movie Tracker",
+        "description": "A-Level project",
+        "role": "Full-stack",
+        "icon": "",
+        "link": "",
+        "api": "",
+        "repo": "",
+        "docs": ""
+    },
+    {
+        "name": "Art Quiz",
+        "description": "La Fosse Lap 1",
+        "role": "Front-end",
+        "icon": "",
+        "link": "",
+        "api": "https://lap1-project-backend.onrender.com/",
+        "repo": "https://github.com/anthonychan1211/Lap-1-project-quiz",
+        "docs": ""
+    },
+    {
+        "name": "Florinate - Community App",
+        "description": "La Fosse Lap 2",
+        "role": "Full-stack, front-end QA",
+        "icon": "",
+        "link": "https://florinate-client.onrender.com/",
+        "api": "https://florinate-api.onrender.com/",
+        "repo": "https://github.com/JacobBrooks0/Lap2-Project",
+        "docs": "",
+        "presentation": "https://1drv.ms/p/s!Av5LawaAE339goEk6Hr9QwDJbm3R7g?e=LafW4q"
+    },
+    {
+        "name": "Pokrastemon",
+        "description": "La Fosse Lap 3",
+        "role": "Full-stack",
+        "icon": "",
+        "link": "https://pokrastemon.onrender.com/",
+        "api": "https://pokrastemon-api.onrender.com/",
+        "repo": "https://github.com/kieranscutt/Pokrastemon-app",
+        "docs": "",
+        "presentation": "https://1drv.ms/p/s!Av5LawaAE339goEmA62b2kMTJ8Z1Wg?e=uJgDaA"
+    },
+    {
+        "name": "Sight Reader",
+        "description": "La Fosse Lap 4 - Final Project",
+        "role": "Full-stack",
+        "icon": "",
+        "link": "https://sightreader.onrender.com/",
+        "api": "https://sight-reader-api.onrender.com/",
+        "repo": "https://github.com/SumeetChoat/thefinalproject",
+        "docs": "",
+        "presentation":"https://1drv.ms/p/s!Av5LawaAE339goErt8zS9_Ce_48xPg?e=h95iiH"
+    }
+]
