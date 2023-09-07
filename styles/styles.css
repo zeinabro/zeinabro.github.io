@@ -1,0 +1,14 @@
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    color: rgb(163, 86, 163);
+}
+
+.description{
+    display: grid;
+    justify-items: center;
+}
