@@ -22,13 +22,23 @@ h1 {
 }
 
 .project {
-    display: flex;
+    display: block;
     border-radius: 5px;
     border-color: black;
     border-style: solid;
-    justify-content: center;
+    text-align: center;
     min-height: 200px;
     max-height: 200px;
     min-width: 200px;
     max-width: 100px;
+}
+
+.title {
+    font-size: 17px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.role {
+    font-size: 12px;
 }
