@@ -7,7 +7,8 @@
         "link": "",
         "api": "",
         "repo": "https://github.com/zeinabro/media-tracker/",
-        "docs": ""
+        "docs": "",
+        "group": "n"
     },
     {
         "name": "Art Quiz",
@@ -17,7 +18,8 @@
         "link": "",
         "api": "https://lap1-project-backend.onrender.com/",
         "repo": "https://github.com/anthonychan1211/Lap-1-project-quiz",
-        "docs": ""
+        "docs": "",
+        "group": "y"
     },
     {
         "name": "Florinate - Community App",
@@ -28,7 +30,8 @@
         "api": "https://florinate-api.onrender.com/",
         "repo": "https://github.com/JacobBrooks0/Lap2-Project",
         "docs": "",
-        "presentation": "https://1drv.ms/p/s!Av5LawaAE339goEk6Hr9QwDJbm3R7g?e=LafW4q"
+        "presentation": "https://1drv.ms/p/s!Av5LawaAE339goEk6Hr9QwDJbm3R7g?e=LafW4q",
+        "group": "y"
     },
     {
         "name": "Pokrastemon",
@@ -39,7 +42,8 @@
         "api": "https://pokrastemon-api.onrender.com/",
         "repo": "https://github.com/kieranscutt/Pokrastemon-app",
         "docs": "",
-        "presentation": "https://1drv.ms/p/s!Av5LawaAE339goEmA62b2kMTJ8Z1Wg?e=uJgDaA"
+        "presentation": "https://1drv.ms/p/s!Av5LawaAE339goEmA62b2kMTJ8Z1Wg?e=uJgDaA",
+        "group": "y"
     },
     {
         "name": "Sight Reader",
@@ -50,6 +54,7 @@
         "api": "https://sight-reader-api.onrender.com/",
         "repo": "https://github.com/SumeetChoat/thefinalproject",
         "docs": "",
-        "presentation":"https://1drv.ms/p/s!Av5LawaAE339goErt8zS9_Ce_48xPg?e=h95iiH"
+        "presentation":"https://1drv.ms/p/s!Av5LawaAE339goErt8zS9_Ce_48xPg?e=h95iiH",
+        "group": "y"
     }
 ]
