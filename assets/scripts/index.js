@@ -13,6 +13,8 @@ async function show_projects() {
         const project_item = document.createElement('div')
         project_item.className = 'project'
 
+        const project_heading = document.createElement('div')
+
         const project_icon = document.createElement('span')
         project_icon.className = 'icon'
         project_icon.innerHTML = project.icon
@@ -20,6 +22,9 @@ async function show_projects() {
         const project_name = document.createElement('p')
         project_name.className = 'title'
         project_name.textContent = project.name
+
+        project_heading.append(project_icon,project_name)
+        project_heading.className = 'heading'
 
         const project_role = document.createElement('span')
         project_role.className = 'role'
@@ -59,7 +64,7 @@ async function show_projects() {
 
         links.append(github_link, app_link, server_link)
         
-        project_item.append(project_icon,project_name,project_role,project_info, links)
+        project_item.append(project_heading,project_role,project_info, links)
         projects_section.appendChild(project_item)
 
     });

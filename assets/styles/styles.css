@@ -34,6 +34,13 @@ h1 {
     position: relative;
 }
 
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+}
+
 .title {
     font-size: 17px;
     padding-bottom: 0px;
