@@ -13,6 +13,10 @@ async function show_projects() {
         const project_item = document.createElement('div')
         project_item.className = 'project'
 
+        const project_icon = document.createElement('span')
+        project_icon.className = 'icon'
+        project_icon.innerHTML = project.icon
+
         const project_name = document.createElement('p')
         project_name.className = 'title'
         project_name.textContent = project.name
@@ -25,7 +29,7 @@ async function show_projects() {
         project_info.className = 'info'
         project_info.textContent = project.description
         
-        project_item.append(project_name,project_role,project_info)
+        project_item.append(project_icon,project_name,project_role,project_info)
         projects_section.appendChild(project_item)
 
     });
