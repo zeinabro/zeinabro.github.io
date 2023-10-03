@@ -1,7 +1,7 @@
 [
     {
-        "name": "Show/Movie Tracker",
-        "description": "A-Level project",
+        "name": "Media Tracker",
+        "description": "An app I designed and made as part of my A Level Computer Science course",
         "role": "Full-stack",
         "icon": "",
         "link": "",
@@ -22,7 +22,7 @@
         "group": "y"
     },
     {
-        "name": "Florinate - Community App",
+        "name": "Florinate",
         "description": "La Fosse Lap 2",
         "role": "Full-stack, front-end QA",
         "icon": "",
@@ -37,7 +37,7 @@
         "name": "Pokrastemon",
         "description": "La Fosse Lap 3",
         "role": "Full-stack",
-        "icon": "",
+        "icon": "<img src='assets/icons/pokrastemon.png'></img>",
         "link": "https://pokrastemon.onrender.com/",
         "api": "https://pokrastemon-api.onrender.com/",
         "repo": "https://github.com/kieranscutt/Pokrastemon-app",

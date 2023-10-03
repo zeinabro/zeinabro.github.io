@@ -64,7 +64,7 @@ async function show_projects() {
 
         links.append(github_link, app_link, server_link)
         
-        project_item.append(project_heading,project_role,project_info, links)
+        project_item.append(project_icon,project_name,project_role,project_info, links)
         projects_section.appendChild(project_item)
 
     });
