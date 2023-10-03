@@ -1,9 +1,9 @@
 [
     {
         "name": "Media Tracker",
-        "description": "An app I designed and made as part of my A Level Computer Science course",
+        "description": "An app I designed and made as part of my A Level Computer Science course. Users are able to create an account, search for and log a title into different lists (Completed, Planning, etc) and add their rating. I used Python Tkinter for the front-end and SQL for the database on the back-end.",
         "role": "Full-stack",
-        "icon": "",
+        "icon": "<img src='assets/icons/media-tracker.png' />",
         "link": "",
         "api": "",
         "repo": "https://github.com/zeinabro/media-tracker/",
@@ -12,7 +12,7 @@
     },
     {
         "name": "Art Quiz",
-        "description": "La Fosse Lap 1",
+        "description": "",
         "role": "Front-end",
         "icon": "",
         "link": "",
