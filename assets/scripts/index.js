@@ -62,7 +62,15 @@ async function show_projects() {
         server_link.appendChild(server_link_icon)
         server_link.title = 'API'
 
-        links.append(github_link, app_link, server_link)
+        if (project.repo){
+            links.append(github_link)
+        }
+        if (project.link){
+            links.append(app_link)
+        }
+        if (project.api){
+            links.append(server_link)
+        }
         
         project_item.append(project_icon,project_name,project_role,project_info, links)
         projects_section.appendChild(project_item)
