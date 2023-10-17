@@ -15,7 +15,7 @@
         "description": "This is the first project I worked on during my course at La Fosse Academy. This app was designed to motivate students to enjoy non STEM subjects. Users are given a set of zoomed in paintings in which they must select the artist of. After a wrong guess, more of the painting is revealed. I worked on the front-end with JavaScript.",
         "role": "Front-end",
         "icon": "<img src='assets/icons/art-quiz.png' />",
-        "link": "",
+        "link": "https://zeinabro.github.io/art-quiz/",
         "api": "https://lap1-project-backend.onrender.com/",
         "repo": "https://github.com/anthonychan1211/Lap-1-project-quiz",
         "docs": "",
