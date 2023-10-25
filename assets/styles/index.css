@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Playpen+Sans&family=Poppins&family=Sometype+Mono&display=swap');
+
+body{
+    display: grid;
+    min-height: 100%;
+    text-align: center;
+    font-family: 'Playpen Sans'; 
+    font-family: 'Poppins';
+    font-display: swap;
+    font-size: 15px;
+    cursor: default
+}
+
+body, #header {
+    background-image: url('https://wallpapercave.com/wp/wp4778514.jpg');
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    left: 0;
+    min-height: fit-content;
+    position: fixed;
+    top: 0;
+    font-size: 17px;
+}
+
+#header span {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer {
+    /* padding-top: 10px; */
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#main {
+    padding: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* border: rgb(92, 13, 87);
+    border-radius: 50px;
+    border-style: solid; */ 
+    font-size: 20px; 
+}
+
+#main, #projects, #about-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+}
+
+#main .title{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    /* color: white; */
+}
+
+#main .subtitle{
+    padding-top: 0px;
+    margin-top: 0;
+    font-size: 15px; 
+    /* color: white; */
+}
+
+.svg-link{
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.svg-link svg{
+    height: 30px;
+    width: 30px;
+}
+
+.svg-link svg:hover{
+    fill: #fbe5f8;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    /* color: rgba(255, 255, 255, 0.689);
+ */
+    color: #fbe5f8;
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.card {
+    padding: 10px;
+}
+
+.card img{
+    width: 175px;
+    height: 175px;
+}
+
+.card {
+    position: relative;
+    text-align: center;
+}
+
+.card span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fbe5f8;
+    border-radius: 20px;
+    padding: 5px;
+    min-width: 30px;
+    cursor: pointer;
+}
+
+.hidden {
+    visibility:hidden;
+}
+
+#projects{
+    display: flex;
+    max-width: 600px;
+    height: fit-content;
+    overflow-y:scroll;
+    scroll-behavior: smooth;
+    border: #7b4d8376;
+    border-radius: 50px;
+    border-style: solid;
+    padding-top: 15px;
+}
+
+#project, .career-section{
+    margin: 0 auto;
+    /* max-width: fit-content; */
+    /* max-height: 600px; */
+    border: #7b4d8376;;
+    border-radius: 50px;
+    border-style: solid;
+    /* border-width: 10px; */
+    /* text-align: left; */
+}
+
+#project-container {
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.project-title{
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+    /* color: white; */
+}
+
+.description-container p{
+    max-width: 500px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.screenshots-container, #project-container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.screenshot , .project{
+    max-width: 500px;
+    display: none;
+    border-radius: 30px;
+}
+
+.screenshot .ss-1{
+    display: block;
+}
+
+.prev-image, .next-image, .prev-project, .next-project {
+    align-self: center;
+    width: auto;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next-image svg:hover, .prev-image svg:hover, .next-project svg:hover, .prev-project svg:hover{
+    fill: #fbe5f8;
+    cursor: pointer;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    /* position: absolute; */
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    align-items: center;
+}
+
+.role{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 7px;
+    font-size: 13px;
+}
+
+.link-icon, .link-icon svg{
+    width: 25px;
+    height: 25px;
+}
+
+.link-icon + .link-icon {
+    margin-left: 7px;
+}
+
+.link-icon svg:hover{
+    fill: #fbe5f8;
+    cursor: pointer;
+}
+
+.me-section, .career-section {
+    padding: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    width: 500px;
+    overflow-y: scroll;
+    max-height: 200px;
+}
+
+.me-para, .career-section p{
+    margin: 0;
+    text-align: left;
+}
+
+.me-para{
+    font-size: 20px;
+    text-align: center;
+    /* padding-bottom: 5px; */
+}
+
+.career-section p{
+    padding: 5px;
+}
