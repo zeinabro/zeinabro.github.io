@@ -91,5 +91,16 @@
         "group": "y",
         "card": "",
         "screenshots": "assets/screenshots/theatre"
+    },
+    {
+        "name": "Wordsearch",
+        "description": "A simple wordsearch game I built using vanilla JS, HTML and CSS. Users can input or generate a random topic, where an external API finds words related to the topic. The timer is dependent on the number of rows and columns present in the wordsearch grid. Words can appear vertically, horizontally, diagonally and either frontwards or backwards. The points (one per each word of a completed wordsearch) are saved in local storage.",
+        "role": "Full-stack",
+        "icon": "assets/icons/wordsearch.png",
+        "link": "https://zeinabro.github.io/wordsearch",
+        "api": "",
+        "repo": "https://github.com/zeinabro/wordsearch",
+        "group": "n",
+        "screenshots": "assets/screenshots/wordsearch"
     }
 ]
